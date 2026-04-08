@@ -11,6 +11,7 @@
 **Họ tên và MSHV:** Phạm Anh Quân - 2A202600252<br>
 **Họ tên và MSHV:** Hoàng Ngọc Thạch - 2A202600068<br>
 **Họ tên và MSHV:** Đào Danh Đăng Phụng - 2A202600358<br>
+**Họ tên và MSHV:** Nguyễn Minh Trí - 2A202600182<br>
 
 **Track:** Open<br>
 **Problem statement (1 câu):** 
@@ -108,7 +109,7 @@ Nếu sai ngược lại thì chuyện gì xảy ra? Nếu tối ưu recall quá
 ---
 
 
-## 5. ROI 3 kịch bản
+## 5. ROI 3 kịch bản (Nguyễn Minh Trí)
 
 
 ||Conservative|Realistic|Optimistic|
