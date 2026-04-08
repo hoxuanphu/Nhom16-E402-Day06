@@ -37,9 +37,9 @@
 
 
 
-###### **Learning signal:**
+##### **Learning signal:**
 
-
+##### 
 
 1. ##### User correction đi vào đâu? `answer\\\\\\\_correction\\\\\\\_log` + pipeline review để cập nhật FAQ canonical answer theo tuần.
 2. ##### Product thu signal gì để biết tốt lên hay tệ đi? Tỷ lệ accept suggestion, tỷ lệ sửa lớn (>30% nội dung), thời gian xử lý mỗi ticket, reopen rate do trả lời thiếu/sai.
