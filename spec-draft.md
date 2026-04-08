@@ -2,17 +2,17 @@
 
 
 
-**Nhóm:** 16-E402
+**Nhóm:** 16-E402<br>
 
 
 
-**Họ tên và MSHV:** Hồ Xuân Phú - 2A20260061
-**Họ tên và MSHV:** Lại Đức Anh - 2A202600374
-**Họ tên và MSHV:** Phạm Anh Quân - 2A202600252
-**Họ tên và MSHV:** Hoàng Ngọc Thạch - 2A202600068
-**Họ tên và MSHV:** Đào Danh Đăng Phụng - 2A202600358
+**Họ tên và MSHV:** Hồ Xuân Phú - 2A20260061<br>
+**Họ tên và MSHV:** Lại Đức Anh - 2A202600374<br>
+**Họ tên và MSHV:** Phạm Anh Quân - 2A202600252<br>
+**Họ tên và MSHV:** Hoàng Ngọc Thạch - 2A202600068<br>
+**Họ tên và MSHV:** Đào Danh Đăng Phụng - 2A202600358<br>
 
-**Track:** Open
+**Track:** Open<br>
 **Problem statement (1 câu):** 
 *Đội hỗ trợ tuyển sinh phải trả lời lặp đi lặp lại các câu hỏi giống nhau từ phụ huynh/học sinh qua chat/call, hiện làm thủ công theo kinh nghiệm cá nhân, AI giúp gợi ý câu trả lời chuẩn hóa từ kho FAQ để giảm thời gian xử lý và tăng tính nhất quán.*
 
