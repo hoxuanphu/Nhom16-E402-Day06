@@ -11,6 +11,7 @@
 #### Họ tên và MSHV: Hồ Xuân Phú- 2A20260061
 
 
+
 **Track:** Open
 **Problem statement (1 câu):** *Đội hỗ trợ tuyển sinh phải trả lời lặp đi lặp lại các câu hỏi giống nhau từ phụ huynh/học sinh qua chat/call, hiện làm thủ công theo kinh nghiệm cá nhân, AI giúp gợi ý câu trả lời chuẩn hóa từ kho FAQ để giảm thời gian xử lý và tăng tính nhất quán.*
 ---
@@ -31,8 +32,8 @@
 ###### **Automation hay augmentation?**  Augmentation
 
 
-Justify: *Augmentation — câu trả lời được AI nháp trước, tư vấn viên duyệt/chỉnh sửa rồi mới gửi; cost of reject gần như bằng 0 và giảm rủi ro gửi sai thông tin chính thức.*
----
+
+## Justify: *Augmentation — câu trả lời được AI nháp trước, tư vấn viên duyệt/chỉnh sửa rồi mới gửi; cost of reject gần như bằng 0 và giảm rủi ro gửi sai thông tin chính thức.*
 
 
 
@@ -40,8 +41,8 @@ Justify: *Augmentation — câu trả lời được AI nháp trước, tư vấ
 
 
 
-1. ###### User correction đi vào đâu? `answer\\\_correction\\\_log` + pipeline review để cập nhật FAQ canonical answer theo tuần.
-2. ###### Product thu signal gì để biết tốt lên hay tệ đi? Tỷ lệ accept suggestion, tỷ lệ sửa lớn (>30% nội dung), thời gian xử lý mỗi ticket, reopen rate do trả lời thiếu/sai.
+1. ##### User correction đi vào đâu? `answer\\\\\\\_correction\\\\\\\_log` + pipeline review để cập nhật FAQ canonical answer theo tuần.
+2. ##### Product thu signal gì để biết tốt lên hay tệ đi? Tỷ lệ accept suggestion, tỷ lệ sửa lớn (>30% nội dung), thời gian xử lý mỗi ticket, reopen rate do trả lời thiếu/sai.
 3. Data thuộc loại nào? ☑ User-specific · ☑ Domain-specific · ☑ Real-time · ☑ Human-judgmen
 Có marginal value không? (Model đã biết cái này chưa?) *Có — chính sách tuyển sinh, học phí, lịch mốc và quy trình hồ sơ thay đổi theo kỳ/năm và mang tính nội bộ, model nền không có bản cập nhật đáng tin cậy theo thời gian thực.*
    ---
@@ -80,6 +81,7 @@ Có marginal value không? (Model đã biết cái này chưa?) *Có — chính 
 
 
 #### **Optimize precision hay recall?** Precision
+
 
 
 Tại sao? Trong tuyển sinh, trả lời sai chính sách có chi phí cao (mất uy tín, khiếu nại, ảnh hưởng quyết định nộp hồ sơ). Ưu tiên "ít sai" hơn "trả lời được mọi câu".
