@@ -40,7 +40,7 @@
 
 1. User correction đi vào đâu? `answer_correction_log` + pipeline review để cập nhật FAQ answer theo tuần.
 2. Product thu signal gì để biết tốt lên hay tệ đi? Tỷ lệ accept suggestion, tỷ lệ sửa lớn (>30% nội dung), thời gian xử lý mỗi ticket, reopen rate do trả lời thiếu/sai.
-3. Data thuộc loại nào? ☑ User-specific · ☑ Domain-specific · ☑ Real-time · ☑ Human-judgmen
+3. Data thuộc loại nào? ☑ User-specific · ☑ Domain-specific · ☑ Real-time · ☑ Human-judgmen<br>
 Có marginal value không? (Model đã biết cái này chưa?) 
 *Có — chính sách tuyển sinh, học phí, lịch mốc và quy trình hồ sơ thay đổi theo kỳ/năm và mang tính nội bộ, model nền không có bản cập nhật đáng tin cậy theo thời gian thực.*
 ---
