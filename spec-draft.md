@@ -10,6 +10,7 @@
 **Họ tên và MSHV:** Lại Đức Anh - 2A202600374
 **Họ tên và MSHV:** Phạm Anh Quân - 2A202600252
 **Họ tên và MSHV:** Hoàng Ngọc Thạch - 2A202600068
+**Họ tên và MSHV:** Đào Danh Đăng Phụng - 2A202600358
 
 **Track:** Open
 **Problem statement (1 câu):** 
@@ -89,7 +90,7 @@ Nếu sai ngược lại thì chuyện gì xảy ra? Nếu tối ưu recall quá
 
 
 
-## 4. Top 3 failure modes
+## 4. Top 3 failure modes (Đào Danh Đăng Phụng)
 
 **Liệt kê cách product có thể fail — không phải list features.
 "Failure mode nào user KHÔNG BIẾT bị sai? Đó là cái nguy hiểm nhất."**
