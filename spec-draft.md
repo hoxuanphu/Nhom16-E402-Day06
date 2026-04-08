@@ -10,7 +10,7 @@
 
 #### Họ tên và MSHV: Hồ Xuân Phú - 2A20260061
 #### Họ tên và MSHV: Lại Đức Anh - 2A202600374
-
+#### Họ tên và MSHV: Phạm Anh Quân - 2A202600252
 
 **Track:** Open
 **Problem statement (1 câu):** *Đội hỗ trợ tuyển sinh phải trả lời lặp đi lặp lại các câu hỏi giống nhau từ phụ huynh/học sinh qua chat/call, hiện làm thủ công theo kinh nghiệm cá nhân, AI giúp gợi ý câu trả lời chuẩn hóa từ kho FAQ để giảm thời gian xử lý và tăng tính nhất quán.*
@@ -76,7 +76,7 @@ Có marginal value không? (Model đã biết cái này chưa?) *Có — chính 
 
 \---
 
-## 3\. Eval metrics + threshold
+## 3\. Eval metrics + threshold(Phạm Anh Quân)
 
 
 
