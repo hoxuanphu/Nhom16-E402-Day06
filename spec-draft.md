@@ -8,8 +8,8 @@
 
 
 
-#### Họ tên và MSHV: Hồ Xuân Phú- 2A20260061
-
+#### Họ tên và MSHV: Hồ Xuân Phú - 2A20260061
+#### Họ tên và MSHV: Lại Đức Anh - 2A202600374
 
 
 **Track:** Open
@@ -135,7 +135,7 @@ Nếu sai ngược lại thì chuyện gì xảy ra? Nếu tối ưu recall quá
 
 \---
 
-## 6\. Mini AI spec (1 trang)
+## 6\. Mini AI spec (1 trang) (Lại Đức Anh)
 
 
 
