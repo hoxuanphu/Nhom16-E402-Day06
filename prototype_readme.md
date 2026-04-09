@@ -7,7 +7,7 @@ Phụ huynh/học sinh gửi câu hỏi mới trong chat inbox → hệ thống 
 - UI build bằng Antigravity (HTML/CSS/JS)
 
 ## Links
-https://drive.google.com/file/d/14w3p-Tce0rY4o1QOfL1R80EEPdfRT7nd/view?usp=drive_link
+https://drive.google.com/file/d/1lQE7j0TD-HjiRttjgMcTtKp_lDxqSm8J/view?usp=sharing
 
 ## Tools
 - UI: Antigravity
