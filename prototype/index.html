@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBot - AI Tư Vấn Tuyển Sinh</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Keep sans-serif fonts, we will use system serif -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-layout">
+        <!-- Claude Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <button class="new-chat-btn" id="refresh-chat">
+                    <span class="btn-text">EduBot AI <span
+                            style="font-size: 0.75rem; color: #a1a1aa; margin-left:4px;">Beta</span></span>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+            </div>
+            <div class="sidebar-content">
+                <div class="history-group">
+                    <div class="history-label">Hôm nay</div>
+                    <div class="history-item active">Tư vấn chọn ngành 2025</div>
+                    <div class="history-item">Khối Kỹ thuật & Công nghệ</div>
+                </div>
+                <div class="history-group">
+                    <div class="history-label">Hôm qua</div>
+                    <div class="history-item">Học phí Đại học Bách Khoa</div>
+                    <div class="history-item">Quy chế xét tuyển sớm</div>
+                </div>
+                <div class="history-group">
+                    <div class="history-label">7 ngày trước</div>
+                    <div class="history-item">Sự khác biệt Kinh tế và Quản...</div>
+                </div>
+            </div>
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar-letter">T</div>
+                    <span class="user-name">Trâm Anh</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="main-content" id="main-content">
+
+            <!-- Empty State (Centered Home) -->
+            <div class="empty-state-container" id="empty-state">
+                <div class="empty-greeting">
+                    <h1 class="greeting-emoji">👋</h1>
+                    <h1 class="greeting-text">Chào buổi chiều, Trâm Anh.</h1>
+                </div>
+
+                <div class="input-wrapper" id="input-wrapper">
+                    <div class="input-container">
+                        <button class="attachment-btn" title="Đính kèm tài liệu tham khảo">
+                            <i class="fa-solid fa-paperclip"></i>
+                        </button>
+                        <textarea id="user-input" placeholder="Hỏi EduBot mọi điều về tuyển sinh..."
+                            rows="1"></textarea>
+                        <button class="send-btn" id="send-btn">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </button>
+                    </div>
+
+                    <div class="suggestion-chips" id="suggestion-chips">
+                        <button class="chip"><i class="fa-solid fa-bolt"></i> Các ngành hot 2025</button>
+                        <button class="chip"><i class="fa-solid fa-bolt"></i> Mức học phí Bách Khoa</button>
+                        <button class="chip"><i class="fa-solid fa-bolt"></i> So sánh các phương thức</button>
+                        <button class="chip"><i class="fa-solid fa-triangle-exclamation"></i> Thử Low
+                            Confidence</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Viewport (Hidden initially) -->
+            <div class="chat-viewport" id="chat-viewport" style="display: none;">
+                <div class="chat-body" id="chat-body">
+                    <!-- Messages appended here -->
+                </div>
+            </div>
+
+            <!-- Bottom Input Footer aligned like Claude (Hidden initially) -->
+            <div class="chat-footer" id="chat-footer" style="display: none;">
+                <!-- Input wrapper will be moved here -->
+                <div class="footer-note" id="footer-note">EduBot có thể hiển thị thông tin thiếu chính xác. Hãy xác minh
+                    lại các dữ liệu quan trọng như Học phí.</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
