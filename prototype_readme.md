@@ -21,4 +21,4 @@ Phụ huynh/học sinh gửi câu hỏi mới trong chat inbox → hệ thống 
 | Phạm Anh Quân - 2A202600252 |||
 | Đào Danh Đăng Phụng - 2A202600358 |||
 | Nguyễn Minh Trí - 2A202600182 |||
-| Hoàng Ngọc Thạch - 2A202600068 | spec-final.md phần 1, 4, prototype/ |
+| Hoàng Ngọc Thạch - 2A202600068 | Canvas + UI prototype | spec-final.md phần 1, prototype/ |
