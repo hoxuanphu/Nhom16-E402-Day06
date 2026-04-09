@@ -7,7 +7,7 @@ Phụ huynh/học sinh gửi câu hỏi mới trong chat inbox → hệ thống 
 - UI build bằng Antigravity (HTML/CSS/JS)
 
 ## Links
-
+https://drive.google.com/file/d/14w3p-Tce0rY4o1QOfL1R80EEPdfRT7nd/view?usp=drive_link
 
 ## Tools
 - UI: Antigravity
@@ -16,7 +16,7 @@ Phụ huynh/học sinh gửi câu hỏi mới trong chat inbox → hệ thống 
 ## Phân công
 | Thành viên | Phần | Output |
 |-----------|------|--------|
-| Hồ Xuân Phú - 2A202600061 |||
+| Hồ Xuân Phú - 2A202600061 | RAG Data Processing| spec_final.md phần 2|
 | Lại Đức Anh - 2A202600374 | Mini AI Spec | spec_final.md phần 6 |
 | Phạm Anh Quân - 2A202600252 | RAG Pipeline Developer | spec-final.md phần 3 |
 | Đào Danh Đăng Phụng - 2A202600358 |||
