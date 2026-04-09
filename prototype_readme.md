@@ -20,5 +20,5 @@ Phụ huynh/học sinh gửi câu hỏi mới trong chat inbox → hệ thống 
 | Lại Đức Anh - 2A202600374 |||
 | Phạm Anh Quân - 2A202600252 | RAG Pipeline Developer | spec-final.md phần 3 |
 | Đào Danh Đăng Phụng - 2A202600358 |||
-| Nguyễn Minh Trí - 2A202600182 |||
+| Nguyễn Minh Trí - 2A202600182 | ROI 3 kịch bản | spec-final.md phần 5 |
 | Hoàng Ngọc Thạch - 2A202600068 | Canvas + UI prototype | spec-final.md phần 1, prototype/ |
