@@ -67,6 +67,16 @@ Có marginal value không? (Model đã biết cái này chưa?)
 |Correction — user sửa|User sửa bằng cách nào? Data đó đi vào đâu?|*Tư vấn viên sửa trực tiếp trong editor, bấm "Lưu sửa + gửi". Diff được ghi vào correction log, chuyển hàng đợi review nội dung để cập nhật câu trả lời chuẩn trong kho FAQ.*|
 
 
+### Feature: Gom cụm câu hỏi trùng lặp + đề xuất FAQ mới
+
+**Trigger:** *Hệ thống nhận nhiều câu hỏi có ý nghĩa tương đương trong ngày/tuần (khác cách diễn đạt) → AI gom cụm theo intent và phát hiện cụm chưa có FAQ chuẩn.*
+
+| Path | Câu hỏi thiết kế | Mô tả |
+|------|-------------------|-------|
+| Happy — AI đúng, tự tin | User thấy gì? Flow kết thúc ra sao? | *Dashboard hiển thị cụm "Học bổng đầu vào" với 124 câu tương tự, gợi ý FAQ chuẩn. Content owner duyệt và publish 1 FAQ mới, các câu hỏi sau được trả lời nhanh hơn.* |
+| Low-confidence — AI không chắc | System báo "không chắc" bằng cách nào? User quyết thế nào? | *Cụm có độ tương đồng thấp được gắn cờ "cần tách cụm", hệ thống đề xuất 2 cách chia intent. Content owner chọn phương án đúng rồi lưu.* |
+| Failure — AI sai | User biết AI sai bằng cách nào? Recover ra sao? | *AI gom nhầm 2 intent khác nhau (học phí vs học bổng), dẫn tới FAQ đề xuất bị lệch. Content owner thấy ví dụ trong cụm không đồng nhất, tách cụm thủ công và gắn lại intent.* |
+| Correction — user sửa | User sửa bằng cách nào? Data đó đi vào đâu? | *Content owner kéo-thả câu hỏi sang cụm đúng, sửa tên intent. Các thao tác này được lưu vào `intent_cluster_feedback` để cải thiện mô hình clustering vòng sau.* |
 ---
 
 ## 3. Eval metrics + threshold (Phạm Anh Quân)
